@@ -8,6 +8,7 @@ public class BubbleSort {
         System.out.println("Please Enter the limit of the elements in aray");
         int n = sc.nextInt();
         int[] array =  new int[n];
+        int max3 = -1;
         for (int i =0;i<n;i++){
             System.out.println("Please enter the number");
             array[i] = sc.nextInt();

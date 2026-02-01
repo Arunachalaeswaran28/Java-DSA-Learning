@@ -31,7 +31,7 @@ public class RecursionBinarySearch {
         }else if(a[mid]>target){
             return recSearch(a,low,mid-1,target);
         }
-        return recSearch(a,low+1,high,target);
+        return recSearch(a,mid+1,high,target);
     }
 }
 
